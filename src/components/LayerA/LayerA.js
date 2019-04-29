@@ -14,14 +14,14 @@ const LayerA = (props) =>{
     return(
         <div>
             {loopState()}
-    {props.food}
-    {props.person}
+    {console.log(props.food)}
+    {console.log(props.person)}
 
             <div>a1</div>
 
 
 
-        </div>;
+        </div>
     )
 
 

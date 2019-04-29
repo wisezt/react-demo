@@ -1,5 +1,11 @@
 import React from 'react';
 
+const food=[   'rice',
+    'meat',
+    'vegetable'
+]
+
+
 const LayerA = (props) =>{
     const loopState = () =>{
         let result = null;

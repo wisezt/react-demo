@@ -1,27 +1,30 @@
 import React from 'react';
 
+let array = [];
+
 const LayerA = (props) =>{
+
     const loopState = () =>{
-        let result = null;
+
         for (let key in props.state){
-            result = result + <div> + key +  </div> + <div>props.state[key] + <div>;
+           console.log(key + ': '  +props.state[key]);
+           array.push(props.state[key]);
         }
-        return result;
+        return array;
 
     }
 
 
     return(
-        <div>
-            {loopState()}
+            <div>
 
-
-            <div>a1</div>
+                {loopState()}
 
 
 
-        </div>;
-    )
+</div>
+
+      )
 
 
 

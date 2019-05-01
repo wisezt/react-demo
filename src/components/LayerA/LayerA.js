@@ -6,7 +6,7 @@ const LayerA = (props) => {
     const loopState = () => {
 
         for (let key in props.state) {
-            let  test1 = 1;
+
         }
 
     }
